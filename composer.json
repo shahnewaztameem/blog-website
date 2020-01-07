@@ -1,0 +1,19 @@
+{
+    "name": "shahnewaztameem/blog",
+    "require": {
+        "phpmailer/phpmailer": "^6.1",
+        "pusher/pusher-php-server": "^4.1",
+        "vlucas/phpdotenv": "^4.1"
+    },
+	"autoload": {
+		"classmap": [
+			"classes"
+		]
+	},
+    "authors": [
+        {
+            "name": "Shahnewaz Tameem",
+            "email": "shahnewaztamim@gmail.com"
+        }
+    ]
+}

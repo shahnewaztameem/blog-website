@@ -1,0 +1,42 @@
+#load-screen {
+background: #FF493E;
+position: fixed;
+z-index: 10000;
+top:0px;
+width: 100%;
+height: 1600px;
+
+}
+
+
+#loading {
+
+width: 500px;
+height: 500px;
+margin: 10% auto;
+background: url(../images/loader.gif);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+
+}
+.online{
+    background: rgb(66, 183, 42);
+    border-radius: 50%;
+    display: inline-block;
+    height: 10px;
+    margin-right: 4px;
+    width: 10px;
+}
+a.disabled {
+    pointer-events: none;
+    cursor: default;
+    color:gray;
+}
+thead.thead-dark{
+    background: #212529;
+    color: #fff;
+}
+td.change-role{
+    width: 12%;
+}
